@@ -1,5 +1,5 @@
 # Milestone Project #1 - Personal Trainer website
-[This project on github pages](https://emilohlund-git.github.io/resume/.)
+[This project on github pages](https://emilohlund-git.github.io/FIT-Website/)
 
 ## UX
 
