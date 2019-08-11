@@ -1,0 +1,230 @@
+@mixin button-style {
+    display: inline-block;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: rgb(223, 185, 167);
+    transition: all .2s ease-in-out;
+    border: none;
+    &:hover {
+        background-color: rgb(209, 168, 148);
+    }
+}
+
+@mixin section-style {
+    height: 60vh;
+    width: 80%;
+    margin: 0 auto 55px auto;
+    h1 {
+        font-family: "Open Sans Condensed", sans-serif;
+        text-transform: uppercase;
+    }
+}
+
+@mixin recipe-style {
+    color: #fff;
+    text-shadow: 1px 1px #333;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.089), rgba(255, 255, 255, 0.267)), url("../images/salmon.jpeg");
+    background-size: cover;
+    background-position: center;
+    &:hover {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.178), rgba(0, 0, 0, 0.267)), url("../images/salmon.jpeg");
+    }
+}
+
+.logo {
+    transition: all .5s ease-in;
+}
+
+main.index {
+    padding-top: 50px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.795), rgba(255, 255, 255, 0.767)), url("../images/sky.jpeg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-box-shadow: 0px 7px 15px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: 0px 7px 15px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: 0px 7px 15px 1px rgba(0, 0, 0, 0.075);
+    .news-container {
+        .news-col {
+            text-align: center;
+            .read-more {
+                cursor: pointer;
+                padding: 45px;
+                font-family: "Open Sans Condensed", sans-serif;
+                font-size: 25px;
+                color: #44A08D;
+                i {
+                    padding: 30px 8px 0 0;
+                }
+            }
+        }
+        padding-bottom: 45px;
+        .list-group {
+            -webkit-box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.07);
+            -moz-box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.07);
+            box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.07);
+            display: block;
+            h5 {
+                text-transform: uppercase;
+                font-family: "Open Sans Condensed", sans-serif;
+                font-weight: 700;
+                font-size: 25px;
+                padding-bottom: 10px;
+            }
+            p {
+                font-family: "Open Sans Condensed", sans-serif;
+                font-size: 20px;
+            }
+            i {
+                padding-right: 25px;
+                margin: 0;
+            }
+            small {
+                padding: 0;
+                margin: 0;
+            }
+            .salmon {
+                color: #fff;
+                text-shadow: 1px 1px rgb(0, 0, 0);
+                background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.089), rgba(255, 255, 255, 0.267)), url("../images/salmon.jpeg");
+                background-size: cover;
+                background-position: center;
+                transition: all .5s ease-in-out;
+                i {
+                    font-size: 25px;
+                }
+                p {
+                    display: none;
+                }
+                small {
+                    display: none;
+                }
+                &:hover {
+                    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.363)), url("../images/salmon.jpeg");
+                    p {
+                        font-family: "Roboto", sans-serif;
+                        display: block;
+                    }
+                    small {
+                        display: block;
+                    }
+                }
+            }
+            .zucchini {
+                @extend .salmon;
+                background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.089), rgba(255, 255, 255, 0.267)), url("../images/zucchini.jpeg");
+                &:hover {
+                    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.178), rgba(0, 0, 0, 0.267)), url("../images/zucchini.jpeg");
+                }
+            }
+            .shrimp {
+                @extend .salmon;
+                background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.089), rgba(255, 255, 255, 0.267)), url("../images/shrimp.jpeg");
+                &:hover {
+                    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.178), rgba(0, 0, 0, 0.267)), url("../images/shrimp.jpeg");
+                }
+            }
+        }
+    }
+    .card {
+        border: none;
+        -webkit-box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.07);
+        a {
+            @include button-style;
+            background-color: rgb(83, 117, 96);
+            font-size: 16px;
+            font-weight: 300;
+            color: rgb(255, 255, 255);
+            &:hover {
+                background-color: rgb(35, 54, 43);
+            }
+        }
+        h5 {
+            font-size: 30px;
+            font-family: "Open Sans Condensed", sans-serif;
+            text-transform: uppercase;
+        }
+        p {
+            font-family: "Open Sans Condensed", sans-serif;
+            font-size: 20px;
+        }
+    }
+    .text-container {
+        text-align: center;
+        padding: 0 35px 10px 35px;
+        background-color: rgb(255, 255, 255);
+        border: none;
+        margin-bottom: 45px;
+        -webkit-box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.07);
+        h1 {
+            padding-top: 35px;
+        }
+        i>.modal-header {
+            font-size: 25px;
+            font-family: "Poppins", sans-serif;
+        }
+        .sub-button {
+            @include button-style;
+        }
+        p {
+            font-family: "Open Sans Condensed", sans-serif;
+            letter-spacing: 1px;
+            margin: 0 0 25px 0;
+        }
+        .why-subscribe {
+            font-family: "Open Sans Condensed", sans-serif;
+            font-size: 12px;
+            color: rgb(151, 151, 151);
+            cursor: default;
+        }
+    }
+    #hero-image {
+        display: flex;
+        height: 60vh;
+        width: 80%;
+        margin: 0 auto 55px auto;
+        -webkit-box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.07);
+        .carousel {
+            display: flex;
+            min-width: 100%;
+            min-height: 100%;
+            .carousel-control-prev-icon {
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23333' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+            }
+            .carousel-control-next-icon {
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23333' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+            }
+        }
+    }
+    #home-text {
+        @include section-style;
+    }
+    .cta-button {
+        background: #44A08D;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #093637, #44A08D);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #093637, #44A08D);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        justify-content: center;
+        position: relative;
+        top: 40%;
+        width: 150px;
+        height: 55px;
+        border-radius: 25px;
+        border: none;
+        .button-text {
+            font-size: 17px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            color: #fff;
+        }
+    }
+}

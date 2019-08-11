@@ -1,0 +1,17 @@
+#contact-section {
+    @extend #about-section;
+    .contact-container {
+        padding: 50px 0;
+    }
+    .controls {
+        padding: 0 0 50px 0;
+        .form-group {
+            width: 75vw;
+        }
+    }
+    label {
+        font-family: "Poppins", sans-serif;
+        font-size: 22px;
+        font-weight: 200;
+    }
+}

@@ -1,0 +1,26 @@
+footer {
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    padding: 50px 75px;
+    i {
+        font-size: 45px;
+        padding: 0;
+        cursor: pointer;
+    }
+    .fa-facebook {
+        color: #3b5998;
+    }
+    .fa-instagram {
+        color: #d6249f;
+    }
+    .fa-twitter {
+        color: #00acee;
+    }
+    .fa-youtube {
+        color: #c4302b;
+    }
+    .fa-snapchat {
+        color: #e7e300;
+    }
+}

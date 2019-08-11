@@ -1,0 +1,103 @@
+$primaryTextColor: #333;
+header {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 80%;
+    padding: 0 0 0 25px;
+    a {
+        text-decoration: none;
+    }
+    .logo {
+        top: 30px;
+        position: absolute;
+        cursor: default;
+        text-decoration: none;
+        padding: 0 25px 0 0;
+        color: $primaryTextColor;
+        vertical-align: middle;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+    nav {
+        padding-top: 20px;
+        flex: 1;
+        .hamburger {
+            text-align: right;
+            float: right;
+            padding: 0 35px;
+        }
+        .nav-links {
+            .home-div {
+                height: 0px;
+                width: 100px;
+                text-align: center;
+                background-color: rgb(136, 199, 141);
+                transition: all .2s ease-in-out;
+                &:hover {
+                    background-color: rgb(93, 158, 104);
+                    height: 70px;
+                    padding-top: 20%;
+                    color: #fff;
+                }
+            }
+            .about-div {
+                @extend .home-div;
+                background-color: rgb(191, 209, 112);
+                &:hover {
+                    background-color: rgb(191, 209, 112);
+                }
+            }
+            .contact-div {
+                @extend .home-div;
+                background-color: rgb(209, 127, 112);
+                &:hover {
+                    background-color: rgb(209, 127, 112);
+                }
+            }
+            i {
+                position: relative;
+                font-size: 35px;
+                top: 6px;
+            }
+            text-align: right;
+            .nav-item {
+                vertical-align: middle;
+                padding: 0 35px;
+                display: inline-block;
+                list-style: none;
+                text-transform: uppercase;
+                .nav-button {
+                    font-family: "Poppins", sans-serif;
+                    font-size: 15px;
+                    color: $primaryTextColor;
+                    &:hover {
+                        color: rgb(158, 158, 158);
+                        text-decoration: none;
+                    }
+                }
+                .dropdown-menu {
+                    font-family: "Poppins", sans-serif;
+                    font-size: 15px;
+                    text-transform: none;
+                    input::placeholder {
+                        font-size: 12px;
+                    }
+                    .form-check-label {
+                        font-family: "Poppins", sans-serif;
+                        font-size: 13px;
+                    }
+                    .form-check {
+                        padding: 10px 10px 20px 20px;
+                    }
+                    button {
+                        border: none;
+                        background-color: #333;
+                    }
+                }
+            }
+        }
+    }
+}
