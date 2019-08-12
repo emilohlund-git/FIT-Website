@@ -12,6 +12,40 @@ main {
 #about-section {
     @include section-style;
     padding-top: 50px;
+    .testimonials {
+        text-align: center;
+        display: block;
+        padding: 0 0 375px 0;
+        .card-text {
+            font-family: "Open Sans Condensed", sans-serif;
+            font-size: 20px;
+        }
+        .card-picture-one {
+            border-radius: 50%;
+            height: 275px;
+            width: 275px;
+            background-image: url("../images/face_one.jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+        .card-picture-two {
+            @extend .card-picture-one;
+            background-image: url("../images/face_two.jpeg");
+        }
+        .card-title {
+            padding-top: 25px;
+            font-family: "Open Sans Condensed", sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+            text-transform: uppercase !important;
+        }
+        .card {
+            background: none;
+            border: none;
+            height: 150px;
+            width: 350px;
+        }
+    }
     .center-col {
         padding-top: 50px;
         text-align: center;

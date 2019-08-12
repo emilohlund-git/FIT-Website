@@ -435,6 +435,45 @@ main {
   text-transform: uppercase;
 }
 
+#about-section .testimonials, #contact-section .testimonials, #member-section .testimonials {
+  text-align: center;
+  display: block;
+  padding: 0 0 375px 0;
+}
+
+#about-section .testimonials .card-text, #contact-section .testimonials .card-text, #member-section .testimonials .card-text {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 20px;
+}
+
+#about-section .testimonials .card-picture-one, #contact-section .testimonials .card-picture-one, #member-section .testimonials .card-picture-one, #about-section .testimonials .card-picture-two, #contact-section .testimonials .card-picture-two, #member-section .testimonials .card-picture-two {
+  border-radius: 50%;
+  height: 275px;
+  width: 275px;
+  background-image: url("../images/face_one.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+#about-section .testimonials .card-picture-two, #contact-section .testimonials .card-picture-two, #member-section .testimonials .card-picture-two {
+  background-image: url("../images/face_two.jpeg");
+}
+
+#about-section .testimonials .card-title, #contact-section .testimonials .card-title, #member-section .testimonials .card-title {
+  padding-top: 25px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase !important;
+}
+
+#about-section .testimonials .card, #contact-section .testimonials .card, #member-section .testimonials .card {
+  background: none;
+  border: none;
+  height: 150px;
+  width: 350px;
+}
+
 #about-section .center-col, #contact-section .center-col, #member-section .center-col {
   padding-top: 50px;
   text-align: center;
@@ -572,6 +611,18 @@ footer .fa-snapchat {
 }
 
 @media screen and (max-width: 850px) {
+  #about-section h1, #contact-section h1, #member-section h1, #about-section h3, #contact-section h3, #member-section h3 {
+    font-size: 50px;
+  }
+  #about-section .testimonials, #contact-section .testimonials, #member-section .testimonials {
+    padding: 0 !important;
+  }
+  #about-section .testimonials .row .col-md-6, #contact-section .testimonials .row .col-md-6, #member-section .testimonials .row .col-md-6 {
+    padding-bottom: 75px;
+  }
+  #about-section .testimonials .row .col-md-6 .card, #contact-section .testimonials .row .col-md-6 .card, #member-section .testimonials .row .col-md-6 .card {
+    display: inline-block;
+  }
   #member-section {
     padding-top: 100px;
   }
@@ -603,11 +654,6 @@ footer .fa-snapchat {
     display: none;
   }
   main.index #home-text {
-    width: 100%;
-  }
-  main.index #about-section, main.index #contact-section, main.index #member-section {
-    padding: 0;
-    margin: 0;
     width: 100%;
   }
   header {
@@ -733,6 +779,10 @@ footer .fa-snapchat {
   font-family: "Poppins", sans-serif;
   font-size: 22px;
   font-weight: 200;
+}
+
+#contact-section #contact-form i, #member-section #contact-form i {
+  padding-right: 10px;
 }
 
 :root {
