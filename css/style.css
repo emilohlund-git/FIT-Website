@@ -157,6 +157,26 @@ main.index {
   box-shadow: 0px 7px 15px 1px rgba(0, 0, 0, 0.075);
 }
 
+main.index button {
+  display: inline-block;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  background-color: #537560;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  border: none;
+  vertical-align: middle;
+}
+
+main.index button:hover {
+  background-color: #405e4b;
+}
+
+main.index a {
+  background-color: rgba(255, 255, 255, 0.034);
+}
+
 main.index .news-container {
   padding-bottom: 45px;
 }
@@ -274,22 +294,17 @@ main.index .card a {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 25px;
   font-weight: 500;
-  background-color: #dfb9a7;
+  background-color: #537560;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
   border: none;
-  background-color: #537560;
-  font-size: 16px;
-  font-weight: 300;
-  color: white;
+  font-size: 15px;
+  height: 35px;
+  width: 75px;
 }
 
 main.index .card a:hover {
-  background-color: #d1a894;
-}
-
-main.index .card a:hover {
-  background-color: #23362b;
+  background-color: #405e4b;
 }
 
 main.index .card h5 {
@@ -313,6 +328,10 @@ main.index .text-container {
   box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.07);
 }
 
+main.index .text-container .modal span {
+  color: #fff;
+}
+
 main.index .text-container h1, main.index .text-container #about-section h3, #about-section main.index .text-container h3, main.index .text-container #contact-section h3, #contact-section main.index .text-container h3, main.index .text-container #member-section h3, #member-section main.index .text-container h3 {
   padding-top: 35px;
 }
@@ -327,14 +346,14 @@ main.index .text-container .sub-button {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 25px;
   font-weight: 500;
-  background-color: #dfb9a7;
+  background-color: #537560;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
   border: none;
 }
 
 main.index .text-container .sub-button:hover {
-  background-color: #d1a894;
+  background-color: #405e4b;
 }
 
 main.index .text-container p {
@@ -531,19 +550,18 @@ main {
 }
 
 #about-section .center-col .start-button, #contact-section .center-col .start-button, #member-section .center-col .start-button {
-  background-color: #368373;
-  font-family: "Poppins", sans-serif;
-  font-size: 17px;
-  width: 150px;
-  height: 50px;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  display: inline-block;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  background-color: #537560;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  border: none;
 }
 
 #about-section .center-col .start-button:hover, #contact-section .center-col .start-button:hover, #member-section .center-col .start-button:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  background-color: #53aa99;
+  background-color: #405e4b;
 }
 
 #about-section .text-container, #contact-section .text-container, #member-section .text-container {
@@ -772,11 +790,8 @@ footer .fa-snapchat {
     z-index: 2;
     position: fixed;
     background: #1f4037;
-    /* fallback for old browsers */
-    /* Chrome 10-25, Safari 5.1-6 */
     background: -webkit-gradient(linear, left bottom, left top, from(#99f2c8), to(#518879));
     background: linear-gradient(to top, #99f2c8, #518879);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 100vh;
     width: 100vw;
     -webkit-clip-path: circle(0px at 110% -10%);
@@ -812,6 +827,21 @@ footer .fa-snapchat {
             transform: rotate(45deg) translate(-8px, -9px);
     background-color: #fff;
   }
+}
+
+#contact-section #input-btn, #member-section #input-btn {
+  display: inline-block;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  background-color: #537560;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  border: none;
+}
+
+#contact-section #input-btn:hover, #member-section #input-btn:hover {
+  background-color: #405e4b;
 }
 
 #contact-section .contact-container, #member-section .contact-container {
@@ -1013,6 +1043,21 @@ h2 {
 
 .form-group .btn-block:hover {
   background-color: #cfcfcf !important;
+}
+
+#member-section button {
+  display: inline-block;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  background-color: #537560;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  border: none;
+}
+
+#member-section button:hover {
+  background-color: #405e4b;
 }
 
 #member-section .member-container {

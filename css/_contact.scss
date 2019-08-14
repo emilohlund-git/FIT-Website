@@ -1,5 +1,8 @@
 #contact-section {
     @extend #about-section;
+    #input-btn {
+        @include button-style;
+    }
     .contact-container {
         padding: 50px 0;
     }

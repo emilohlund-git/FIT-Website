@@ -3,11 +3,11 @@
     font-family: "Open Sans Condensed", sans-serif;
     font-size: 25px;
     font-weight: 500;
-    background-color: rgb(223, 185, 167);
+    background-color: rgb(83, 117, 96);
     transition: all .2s ease-in-out;
     border: none;
     &:hover {
-        background-color: rgb(209, 168, 148);
+        background-color: rgb(64, 94, 75);
     }
 }
 
@@ -45,6 +45,13 @@ main.index {
     -webkit-box-shadow: 0px 7px 15px 1px rgba(0, 0, 0, 0.075);
     -moz-box-shadow: 0px 7px 15px 1px rgba(0, 0, 0, 0.075);
     box-shadow: 0px 7px 15px 1px rgba(0, 0, 0, 0.075);
+    button {
+        @include button-style;
+        vertical-align: middle;
+    }
+    a {
+        background-color: rgba(255, 255, 255, 0.034);
+    }
     .news-container {
         .news-col {
             text-align: center;
@@ -134,13 +141,9 @@ main.index {
         box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.07);
         a {
             @include button-style;
-            background-color: rgb(83, 117, 96);
-            font-size: 16px;
-            font-weight: 300;
-            color: rgb(255, 255, 255);
-            &:hover {
-                background-color: rgb(35, 54, 43);
-            }
+            font-size: 15px;
+            height: 35px;
+            width: 75px;
         }
         h5 {
             font-size: 30px;
@@ -161,6 +164,11 @@ main.index {
         -webkit-box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.07);
         -moz-box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.07);
         box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.07);
+        .modal {
+            span {
+                color: #fff;
+            }
+        }
         h1 {
             padding-top: 35px;
         }
