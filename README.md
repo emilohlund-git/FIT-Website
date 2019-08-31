@@ -5,12 +5,11 @@
 
 ## Features
 1. Fixed Navbar (With a hamburger icon for mobile) 
-2. Hero Image with a Call To Action button
-* It's an easy and fast way to display what this website is going to be about, and to provide a fast shortcut to the most essential part of the website.
-3. Bootstrap carousel
-4. Contact form
+* Implemented using CSS animations and jQuery's toggle method.
+2. Bootstrap carousel
+3. Contact form
 * Great way to be able to get in touch as easy, and as fast as possible.
-5. Footer with social media links
+4. Footer with social media links
 * Recognizable, fast way to showcase the platforms where you are active.
 
 ## Technologies Used
@@ -22,12 +21,13 @@
 * The project includes Font Awesome for, well, icons.
 
 ## Testing
-Testing for this project involved a whole lot of clicking around and checking so that everything is responsive and working as intended.
+Testing for this project was basically just me clicking around and checking so that everything is responsive and working as intended.
 
 ## Deployment
 
 ## Credits
 [Codepen](https://codepen.io/peruvianidol/pen/NLMvqO) for the progressbar
+[Youtube API](https://imelgrat.me/javascript/youtube-iframe-api-javascript/) for controlling the embedded YouTube video
 
 ### Content
 

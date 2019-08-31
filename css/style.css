@@ -384,8 +384,6 @@ main.index #hero-image .carousel {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-width: 100%;
-  min-height: 100%;
 }
 
 main.index #hero-image .carousel .carousel-control-prev-icon {
@@ -567,6 +565,11 @@ main {
 #about-section .text-container, #contact-section .text-container, #member-section .text-container {
   padding: 50px 0 50px 0;
   text-align: justify;
+}
+
+#about-section button a, #contact-section button a, #member-section button a {
+  color: #fff;
+  text-decoration: none;
 }
 
 #about-section a, #contact-section a, #member-section a {

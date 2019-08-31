@@ -21,17 +21,6 @@
     }
 }
 
-@mixin recipe-style {
-    color: #fff;
-    text-shadow: 1px 1px #333;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.089), rgba(255, 255, 255, 0.267)), url("../images/salmon.jpeg");
-    background-size: cover;
-    background-position: center;
-    &:hover {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.178), rgba(0, 0, 0, 0.267)), url("../images/salmon.jpeg");
-    }
-}
-
 .logo {
     transition: all .5s ease-in;
 }
@@ -201,14 +190,13 @@ main.index {
         box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.07);
         .carousel {
             display: flex;
-            min-width: 100%;
-            min-height: 100%;
             .carousel-control-prev-icon {
                 background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23333' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
             }
             .carousel-control-next-icon {
                 background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23333' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
             }
+            .carousel-item {}
         }
     }
     #home-text {

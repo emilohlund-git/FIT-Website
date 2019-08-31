@@ -10,7 +10,6 @@ $(function() {
 
 hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("rotate");
-
     circle.classList.toggle("grow");
     showing = !showing;
     if (showing) {
