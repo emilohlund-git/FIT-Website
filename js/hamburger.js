@@ -2,7 +2,7 @@ const hamburger = document.getElementById("hamburger-button");
 const circle = document.getElementById("circle");
 const body = document.querySelector("body");
 
-var showing = false;
+let showing = false;
 
 $(function() {
     $('[data-toggle="tooltip"]').tooltip()

@@ -65,13 +65,13 @@ main {
             border-radius: 50%;
             height: 275px;
             width: 275px;
-            background-image: url("../images/face_one.jpeg");
+            background-image: url("https://res.cloudinary.com/dgh5iyqga/image/upload/v1568479786/FIT/face_two_oppne1.jpg");
             background-size: cover;
             background-position: center;
         }
         .card-picture-two {
             @extend .card-picture-one;
-            background-image: url("../images/face_two.jpeg");
+            background-image: url("https://res.cloudinary.com/dgh5iyqga/image/upload/v1568479784/FIT/face_one_inrneh.jpg");
         }
         .card-title {
             padding-top: 25px;
