@@ -148,8 +148,8 @@ header nav .nav-links .nav-item .dropdown-menu button {
 
 main.index {
   padding-top: 50px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.795)), to(rgba(255, 255, 255, 0.767))), url("../images/sky.jpeg");
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.795), rgba(255, 255, 255, 0.767)), url("../images/sky.jpeg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.795)), to(rgba(255, 255, 255, 0.767))), url("https://res.cloudinary.com/dgh5iyqga/image/upload/v1568479796/FIT/sky_tdxqpu.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.795), rgba(255, 255, 255, 0.767)), url("https://res.cloudinary.com/dgh5iyqga/image/upload/v1568479796/FIT/sky_tdxqpu.jpg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -229,8 +229,8 @@ main.index .news-container .list-group small {
 main.index .news-container .list-group .salmon, main.index .news-container .list-group .zucchini, main.index .news-container .list-group .shrimp {
   color: #fff;
   text-shadow: 1px 1px black;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.089)), to(rgba(255, 255, 255, 0.267))), url("../images/salmon.jpeg");
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.089), rgba(255, 255, 255, 0.267)), url("../images/salmon.jpeg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.089)), to(rgba(255, 255, 255, 0.267))), url("https://res.cloudinary.com/dgh5iyqga/image/upload/v1568479792/FIT/salmon_fhvuf4.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.089), rgba(255, 255, 255, 0.267)), url("https://res.cloudinary.com/dgh5iyqga/image/upload/v1568479792/FIT/salmon_fhvuf4.jpg");
   background-size: cover;
   background-position: center;
   -webkit-transition: all .5s ease-in-out;
@@ -250,8 +250,8 @@ main.index .news-container .list-group .salmon small, main.index .news-container
 }
 
 main.index .news-container .list-group .salmon:hover, main.index .news-container .list-group .zucchini:hover, main.index .news-container .list-group .shrimp:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.315)), to(rgba(0, 0, 0, 0.363))), url("../images/salmon.jpeg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.363)), url("../images/salmon.jpeg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.315)), to(rgba(0, 0, 0, 0.363))), url("https://res.cloudinary.com/dgh5iyqga/image/upload/v1568479792/FIT/salmon_fhvuf4.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.363)), url("https://res.cloudinary.com/dgh5iyqga/image/upload/v1568479792/FIT/salmon_fhvuf4.jpg");
 }
 
 main.index .news-container .list-group .salmon:hover p, main.index .news-container .list-group .zucchini:hover p, main.index .news-container .list-group .shrimp:hover p {
@@ -264,23 +264,23 @@ main.index .news-container .list-group .salmon:hover small, main.index .news-con
 }
 
 main.index .news-container .list-group .zucchini {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.089)), to(rgba(255, 255, 255, 0.267))), url("../images/zucchini.jpeg");
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.089), rgba(255, 255, 255, 0.267)), url("../images/zucchini.jpeg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.089)), to(rgba(255, 255, 255, 0.267))), url("https://res.cloudinary.com/dgh5iyqga/image/upload/v1568479804/FIT/zucchini_o37uol.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.089), rgba(255, 255, 255, 0.267)), url("https://res.cloudinary.com/dgh5iyqga/image/upload/v1568479804/FIT/zucchini_o37uol.jpg");
 }
 
 main.index .news-container .list-group .zucchini:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.178)), to(rgba(0, 0, 0, 0.267))), url("../images/zucchini.jpeg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.178), rgba(0, 0, 0, 0.267)), url("../images/zucchini.jpeg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.178)), to(rgba(0, 0, 0, 0.267))), url("https://res.cloudinary.com/dgh5iyqga/image/upload/v1568479804/FIT/zucchini_o37uol.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.178), rgba(0, 0, 0, 0.267)), url("https://res.cloudinary.com/dgh5iyqga/image/upload/v1568479804/FIT/zucchini_o37uol.jpg");
 }
 
 main.index .news-container .list-group .shrimp {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.089)), to(rgba(255, 255, 255, 0.267))), url("../images/shrimp.jpeg");
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.089), rgba(255, 255, 255, 0.267)), url("../images/shrimp.jpeg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.089)), to(rgba(255, 255, 255, 0.267))), url("https://res.cloudinary.com/dgh5iyqga/image/upload/v1568479794/FIT/shrimp_exdgpd.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.089), rgba(255, 255, 255, 0.267)), url("https://res.cloudinary.com/dgh5iyqga/image/upload/v1568479794/FIT/shrimp_exdgpd.jpg");
 }
 
 main.index .news-container .list-group .shrimp:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.178)), to(rgba(0, 0, 0, 0.267))), url("../images/shrimp.jpeg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.178), rgba(0, 0, 0, 0.267)), url("../images/shrimp.jpeg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.178)), to(rgba(0, 0, 0, 0.267))), url("https://res.cloudinary.com/dgh5iyqga/image/upload/v1568479794/FIT/shrimp_exdgpd.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.178), rgba(0, 0, 0, 0.267)), url("https://res.cloudinary.com/dgh5iyqga/image/upload/v1568479794/FIT/shrimp_exdgpd.jpg");
 }
 
 main.index .card {
@@ -431,8 +431,8 @@ main.index .cta-button .button-text {
 }
 
 main {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 255, 255, 0.89))), url("../images/sky.jpeg");
-  background-image: linear-gradient(to bottom, white, rgba(255, 255, 255, 0.89)), url("../images/sky.jpeg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 255, 255, 0.89))), url("https://res.cloudinary.com/dgh5iyqga/image/upload/v1568479796/FIT/sky_tdxqpu.jpg");
+  background-image: linear-gradient(to bottom, white, rgba(255, 255, 255, 0.89)), url("https://res.cloudinary.com/dgh5iyqga/image/upload/v1568479796/FIT/sky_tdxqpu.jpg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -518,13 +518,13 @@ main {
   border-radius: 50%;
   height: 275px;
   width: 275px;
-  background-image: url("../images/face_one.jpeg");
+  background-image: url("https://res.cloudinary.com/dgh5iyqga/image/upload/v1568479786/FIT/face_two_oppne1.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #about-section .testimonials .card-picture-two, #contact-section .testimonials .card-picture-two, #member-section .testimonials .card-picture-two {
-  background-image: url("../images/face_two.jpeg");
+  background-image: url("https://res.cloudinary.com/dgh5iyqga/image/upload/v1568479784/FIT/face_one_inrneh.jpg");
 }
 
 #about-section .testimonials .card-title, #contact-section .testimonials .card-title, #member-section .testimonials .card-title {

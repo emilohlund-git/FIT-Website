@@ -19,6 +19,8 @@
 * For it's functionality with Bootstrap elements and it's easy ability of targeting and animating elements in HTML using Javascript.
 3. [Font Awesome](https://fontawesome.com/)
 * The project includes Font Awesome for, well, icons.
+4. [Sass](https://sass-lang.com/)
+* I think it's awesome to work more in an object oriented fashion with CSS.
 
 ## Testing
 Testing for this project was basically just me clicking around and checking so that everything is responsive and working as intended.
@@ -33,6 +35,6 @@ I've deployed the project using Git Bash, linked to a Github repository and fina
 ### Content
 
 ### Media
-The photos used in this site were obtained from [Pexels](https://www.pexels.com)
+The photos used in this site were obtained from [Pexels](https://www.pexels.com) and uploaded to [Cloudinary](https://cloudinary.com/) so I don't have to include them in my repository.
 
 ### Acknowledgements
