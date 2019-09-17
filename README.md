@@ -24,6 +24,7 @@
 Testing for this project was basically just me clicking around and checking so that everything is responsive and working as intended.
 
 ## Deployment
+I've deployed the project using Git Bash, linked to a Github repository and finally published to Github pages.
 
 ## Credits
 [Codepen](https://codepen.io/peruvianidol/pen/NLMvqO) for the progressbar
