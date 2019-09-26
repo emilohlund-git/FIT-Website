@@ -1,12 +1,13 @@
 let showing = false;
+const hamburger = document.getElementById("hamburger-button");
 
 $(function() {
     $('[data-toggle="tooltip"]').tooltip()
 })
 
-$('#hamburger-button').addEventListener("click", () => {
-    $('#hamburger-button').classList.toggle("rotate");
-    $('#circle').classList.toggle("grow");
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("rotate");
+    document.getElementById("circle").classList.toggle("grow");
     showing = !showing;
     if (showing) {
         $('.logo').css("color", "#fff");

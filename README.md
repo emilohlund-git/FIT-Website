@@ -2,6 +2,12 @@
 [This project on github pages](https://emilohlund-git.github.io/FIT-Website/)
 
 ## UX
+I've created this website primarily for people who have an interest in physical training, and how to get in touch with someone who can help them achieve their goals within that interest. Also for people who are already in touch with a personal trainer and would just like to browse here for foodtips, or tips / guides for certain physical activities. 
+
+Also it's a way for a customer to administrate booked sessions and a way of communication to the personal trainer if none other is available.
+
+[Desktop Wireframes]: https://res.cloudinary.com/dgh5iyqga/image/upload/v1569525010/FIT/Desktop_ulg61o.png "Desktop Wireframes"
+[Mobile Wireframes]: https://res.cloudinary.com/dgh5iyqga/image/upload/v1569525010/FIT/Mobile_lpu8b9.png "Mobile Wireframes"
 
 ## Features
 1. Fixed Navbar (With a hamburger icon for mobile) 
@@ -11,6 +17,12 @@
 * Great way to be able to get in touch as easy, and as fast as possible.
 4. Footer with social media links
 * Recognizable, fast way to showcase the platforms where you are active.
+
+Within the bootstrap library I've decided to include quite a few components such as:
+* A [carousel](https://getbootstrap.com/docs/4.1/components/carousel/), gets attention from the user and directly shows what this website is about.
+* Plenty of [cards](https://getbootstrap.com/docs/4.1/components/card/), compact way of displaying important information to the user.
+* A [contact form](https://getbootstrap.com/docs/4.1/components/forms/), simplifies the proccess of getting in touch with the appropriate person.
+Each element has been more or less modified to fit my vision of what the page was going to be through CSS.
 
 ## Technologies Used
 1. [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
@@ -23,13 +35,20 @@
 * I think it's awesome to work more in an object oriented fashion with CSS.
 
 ## Testing
-Testing for this project was basically just me clicking around and checking so that everything is responsive and working as intended.
+I've run my code through https://jigsaw.w3.org/css-validator/ and https://validator.w3.org/ to make sure it's structurally correct.
+Been testing it continuously with the DevTools in Google Chrome to make sure the website is mobile responsive, as well as opened the website on my actual phone. 
 
 ## Deployment
-I've deployed the project using Git Bash, linked to a Github repository and finally published to Github pages.
+I've continously throughout the project been commiting my progress to Git using the following steps in the Git Bash terminal:
+* First of all using the cd command to direct me to the appropriate repository.
+* Secondly using git add ./ to add the entire repository to Git.
+* Thirdly commited my work using the git commit -m "message" command.
+* Finally established a remote connection to GitHub using git remote add and then pushed the commited work to GitHub using git push
+
+To be able to display this project to the world I've published the website using GitHub pages.
 
 ## Credits
-[Codepen](https://codepen.io/peruvianidol/pen/NLMvqO) for the progressbar
+[Codepen](https://codepen.io/peruvianidol/pen/NLMvqO) for the progressbar in the [members page](https://emilohlund-git.github.io/FIT-Website/member.html?)
 [Youtube API](https://imelgrat.me/javascript/youtube-iframe-api-javascript/) for controlling the embedded YouTube video
 
 ### Content

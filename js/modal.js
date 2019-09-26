@@ -1,4 +1,6 @@
-$('#close').addEventListener("click", () => {
+const close = document.getElementById("close");
+
+close.addEventListener("click", () => {
     $('#modal').modal('hide');
 });
 
