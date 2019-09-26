@@ -6,6 +6,7 @@ I've created this website primarily for people who have an interest in physical 
 
 Also it's a way for a customer to administrate booked sessions and a way of communication to the personal trainer if none other is available.
 
+These are the wireframes I created (using [Balsamiq Wireframes](https://balsamiq.com/wireframes/)) before starting my project, which was my initial vision of what the website would look like:
 ![alt text](https://res.cloudinary.com/dgh5iyqga/image/upload/v1569525010/FIT/Desktop_ulg61o.png "Desktop Wireframes")
 ![alt text](https://res.cloudinary.com/dgh5iyqga/image/upload/v1569525010/FIT/Mobile_lpu8b9.png "Mobile Wireframes")
 
