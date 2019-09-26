@@ -26,37 +26,37 @@ This is where you can administrate your booked sessions and write / read message
 There is a login page which you get redirected to if you press the 'Read more!' button underneath the recipes on the start page. This is intended for locked content, since most recipes and such would be restricted for non-members.
 
 ### Existing Features
-* Navigation bar
+* #### Navigation bar
 Turns into a hamburger menu on mobile devices. The hamburger icon is animated using CSS & jQuerys toggle function. On desktop the buttons in the menu are animated strictly using CSS.
-* Carousel
+* #### Carousel
 Using a carousel to be able to tell on first sight what this website is going to be about.
-* Modal
+* #### Modal
 Pressing the subscribe button toggles a modal, where you can enter your e-mail address and eventually be able to subscribe to a newsletter created by the personal trainer. If you press submit the content of the modal changes to a thank you message, which then resets when you exit the modal. This functionality I've created using JavaScript.
-* Tooltips
+* #### Tooltips
 From the bootstrap components library, if you hover over the 'Why subscribe?' text which is right under the Subscribe button it displays a short informative text on the perks of subscribing to the newsletter.
-* Cards you can hover over
+* #### Cards you can hover over
 Made using CSS, changing the display class from none to block on the p & small elements contained by the card when hovering over it.
-* iFrame
+* #### iFrame
 The iFrame is on the About page to display a YouTube video, whenever you press the Play symbol. I'm using JavaScript & CSS to toggle the opening and closing sequences when pressing the button. Which is created by changing the height property of the iFrame column.
-* Contact Form
+* #### Contact Form
 Customized with CSS & added some Font Awesome icons for a better visual experience.
-* Hamburger Menu
+* #### Hamburger Menu
 Three divs with a black background to represent the three lines, each div is animated using CSS ([transform](https://www.w3schools.com/cssref/css3_pr_transform.asp)). And toggled using jQuerys [.toggle](https://api.jquery.com/toggle/) function. 
-* Overlay
+* #### Overlay
 The menu overlay on the mobile version of the website is created using CSS ([clip-path: circle](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path)).
 
 ### Features yet to be implemented
-* Actual logging in
+* #### Actual logging in
 I've yet to figure out how to handle the log in proccess and authorisation, I know how to do it using Firebase but I'm not quite sure I want to take that route.
-* Messaging
+* #### Messaging
 There will be a feature so that you can both recieve and write messages to the personal trainer.
-* Schedule handling
+* #### Schedule handling
 I will implement a schedule, so that you can both book & cancel appointments with the personal trainer.
-* Recipes
+* #### Recipes
 A page which displays recipes written by, or chosen by the personal trainer.
-* Exercises
+* #### Exercises
 A page where you can find exercises, videos and images guiding you how to do them.
-* Tips
+* #### Tips
 A page with tips on your training and how to be effective with it.
 
 ## Technologies Used
