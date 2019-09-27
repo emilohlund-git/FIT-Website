@@ -1,5 +1,7 @@
 # Milestone Project #1 - Personal Trainer website
-[This project on github pages](https://emilohlund-git.github.io/FIT-Website/)
+![alt text](https://res.cloudinary.com/dgh5iyqga/image/upload/v1569571820/FIT/Website_nvaf1j.png "Website Preview")
+[Click here to check the website out!](https://emilohlund-git.github.io/FIT-Website/)
+
 
 ## UX
 I've created this website primarily for people who have an interest in physical training, and how to get in touch with someone who can help them achieve their goals within that interest. Also for people who are already in touch with a personal trainer and would just like to browse here for foodtips, or tips / guides for certain physical activities. 
